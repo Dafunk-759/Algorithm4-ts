@@ -13,7 +13,7 @@ export function read(
       .readFileSync(path.resolve("static", filename), {
         encoding: "utf-8",
       })
-      .split(" ");
+      .match(/\w+/g) as string[];
   }
   return mode === "number"
     ? ret.map((value) => Number(value))

@@ -1,3 +1,3 @@
-import { draw } from "./util/indexBrowser.js";
-
-draw();
+// import "./chapter1/binarySearch.js";
+// import "./chapter1/evaluate.js";
+import "./chapter1/stack.js";
