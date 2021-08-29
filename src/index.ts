@@ -7,4 +7,9 @@
 // import "./chapter1/josephus.js";
 // import "./chapter1/threeSum.js";
 // import "./chapter1/localMinimum.js";
-import "./chapter1/unionFind.js";
+// import "./chapter1/unionFind.js";
+// import "./chapter2/selectSort.js";
+// import "./chapter2/insertionSort.js";
+// import "./chapter2/shellSort.js";
+// import "./chapter2/mergeSort.js";
+import "./chapter2/sortCompare.js";
