@@ -2,10 +2,17 @@ import { selectSort } from "./selectSort.js";
 import { insertionSort } from "./insertionSort.js";
 import { shellSort } from "./shellSort.js";
 import { mergeSort } from "./mergeSort.js";
+import { quickSort } from "./quickSort.js";
 
-sortCompare("merge", "insertion", 10, 100000);
+sortCompare("quick", "merge", 1000, 1000);
 
-type Alg = "select" | "insertion" | "shell" | "merge";
+type Alg =
+  | "select"
+  | "insertion"
+  | "shell"
+  | "merge"
+  | "quick"
+  | "base";
 
 function sortCompare(
   alg1: Alg,
@@ -33,6 +40,8 @@ function time<T>(
   if (alg === "insertion") insertionSort(a, cp);
   if (alg === "shell") shellSort(a, cp);
   if (alg === "merge") mergeSort(a, cp);
+  if (alg === "quick") quickSort(a, cp);
+  if (alg === "base") a.sort(cp);
 
   return Date.now() - start;
 }

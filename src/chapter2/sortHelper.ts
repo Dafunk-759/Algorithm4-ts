@@ -46,3 +46,24 @@ export function test(sort: Sort) {
   console.assert(isSorted(input, cp));
   console.log(input);
 }
+
+export function shuffle<T>(a: T[]) {
+  let index = -1,
+    length = a.length,
+    lastIndex = length - 1;
+
+  while (++index < length) {
+    let rand = baseRandom(index, lastIndex),
+      value = a[rand];
+
+    a[rand] = a[index];
+    a[index] = value;
+  }
+  return a;
+}
+
+function baseRandom(lower: number, upper: number) {
+  return (
+    lower + Math.floor(Math.random() * (upper - lower + 1))
+  );
+}

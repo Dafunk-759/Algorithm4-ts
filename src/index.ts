@@ -12,4 +12,6 @@
 // import "./chapter2/insertionSort.js";
 // import "./chapter2/shellSort.js";
 // import "./chapter2/mergeSort.js";
-import "./chapter2/sortCompare.js";
+// import "./chapter2/quickSort.js";
+// import "./chapter2/sortCompare.js";
+import "./chapter2/MaxPQ.js";
