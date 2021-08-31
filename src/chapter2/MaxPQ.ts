@@ -61,7 +61,7 @@ function swim(
   }
 }
 
-function sink(
+export function sink(
   k: number,
   cp: (a: number, b: number) => number,
   exch: (a: number, b: number) => void,
@@ -98,4 +98,4 @@ function pickMin(M: number) {
   }
   while (!pq.isEmpty()) console.log(pq.delMax());
 }
-pickMin(10);
+// pickMin(10);

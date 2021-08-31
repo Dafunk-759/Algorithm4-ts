@@ -3,8 +3,9 @@ import { insertionSort } from "./insertionSort.js";
 import { shellSort } from "./shellSort.js";
 import { mergeSort } from "./mergeSort.js";
 import { quickSort } from "./quickSort.js";
+import { heapSort } from "./heapSort.js";
 
-sortCompare("quick", "merge", 1000, 1000);
+sortCompare("heap", "quick", 1000, 1000);
 
 type Alg =
   | "select"
@@ -12,6 +13,7 @@ type Alg =
   | "shell"
   | "merge"
   | "quick"
+  | "heap"
   | "base";
 
 function sortCompare(
@@ -41,6 +43,7 @@ function time<T>(
   if (alg === "shell") shellSort(a, cp);
   if (alg === "merge") mergeSort(a, cp);
   if (alg === "quick") quickSort(a, cp);
+  if (alg === "heap") heapSort(a, cp);
   if (alg === "base") a.sort(cp);
 
   return Date.now() - start;
