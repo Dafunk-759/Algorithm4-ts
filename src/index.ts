@@ -16,4 +16,6 @@
 // import "./chapter2/MaxPQ.js";
 // import "./chapter2/heapSort.js";
 // import "./chapter2/sortCompare.js";
-import "./chapter2/exercise.js"
+// import "./chapter2/exercise.js"
+// import "./chapter3/ST.js";
+import "./chapter3/SequentialSearchSt.js";
