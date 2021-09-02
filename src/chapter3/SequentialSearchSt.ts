@@ -48,4 +48,4 @@ class SequentialSearchSt<Key, Value> extends ST<
   }
 }
 
-frequencyCounter(SequentialSearchSt, 10, "tale.txt");
+frequencyCounter(SequentialSearchSt, 5, "tale.txt");

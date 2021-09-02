@@ -18,4 +18,6 @@
 // import "./chapter2/sortCompare.js";
 // import "./chapter2/exercise.js"
 // import "./chapter3/ST.js";
-import "./chapter3/SequentialSearchSt.js";
+// import "./chapter3/SequentialSearchSt.js";
+// import "./chapter3/BST.js";
+import "./chapter4/graph.js";

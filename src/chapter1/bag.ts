@@ -16,7 +16,7 @@ class ListNode<T> {
   }
 }
 
-class Bag<T> implements IBag<T> {
+export class Bag<T> implements IBag<T> {
   private first: ListNode<T> | null = null;
   private N: number = 0;
 
@@ -38,17 +38,17 @@ class Bag<T> implements IBag<T> {
   }
 }
 
-(() => {
-  const bag = new Bag<string>();
-  const strArr = util.read("tobe.txt") as string[];
-  console.log(strArr);
+// (() => {
+//   const bag = new Bag<string>();
+//   const strArr = util.read("tobe.txt") as string[];
+//   console.log(strArr);
 
-  for (let s of strArr) {
-    if (s !== "-") bag.add(s);
-  }
-  console.log(`${bag.size()} items total`);
+//   for (let s of strArr) {
+//     if (s !== "-") bag.add(s);
+//   }
+//   console.log(`${bag.size()} items total`);
 
-  for (const item of bag) {
-    console.log(item);
-  }
-})();
+//   for (const item of bag) {
+//     console.log(item);
+//   }
+// })();
