@@ -74,24 +74,21 @@ export class Graph implements IGraph {
     }
     return count / 2;
   }
-}
+  static makeGraph(fileName: string = "tinyG.txt") {
+    const input = util.read(fileName, "number") as number[];
 
-function testGraph() {
-  const input = util.read(
-    "tinyG.txt",
-    "number"
-  ) as number[];
+    const V = input.shift() as number,
+      E = input.shift() as number;
+    const graph = new Graph(V);
 
-  const V = input.shift() as number,
-    E = input.shift() as number;
-  const graph = new Graph(V);
+    for (let i = 0; i < E; i++) {
+      const v = input.shift() as number,
+        w = input.shift() as number;
+      graph.addEdge(v, w);
+    }
 
-  for (let i = 0; i < E; i++) {
-    const v = input.shift() as number,
-      w = input.shift() as number;
-    graph.addEdge(v, w);
+    return graph;
   }
-
-  console.log(graph.toString());
 }
-testGraph();
+
+

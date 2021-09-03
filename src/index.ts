@@ -20,4 +20,8 @@
 // import "./chapter3/ST.js";
 // import "./chapter3/SequentialSearchSt.js";
 // import "./chapter3/BST.js";
-import "./chapter4/graph.js";
+// import "./chapter4/graph.js";
+// import "./chapter4/search.js";
+// import "./chapter4/paths.js";
+// import "./chapter4/CC.js";
+import "./chapter4/symbolGraph.js";
