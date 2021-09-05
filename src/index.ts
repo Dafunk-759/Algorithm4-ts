@@ -24,4 +24,11 @@
 // import "./chapter4/search.js";
 // import "./chapter4/paths.js";
 // import "./chapter4/CC.js";
-import "./chapter4/symbolGraph.js";
+// import "./chapter4/symbolGraph.js";
+// import "./chapter4/digraph.js";
+// import "./chapter4/directedDFS.js";
+// import "./chapter4/directedCycle.js";
+// import "./chapter4/topological.js";
+// import "./chapter4/SCC.js";
+// import "./chapter4/edge.js";
+// import "./chapter4/prim.js";
