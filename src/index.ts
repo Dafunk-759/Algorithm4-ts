@@ -32,3 +32,6 @@
 // import "./chapter4/SCC.js";
 // import "./chapter4/edge.js";
 // import "./chapter4/prim.js";
+// import "./chapter5/LSD.js";
+// import "./chapter5/stringST.js";
+import "./chapter5/search.js";
