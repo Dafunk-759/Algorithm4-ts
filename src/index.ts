@@ -34,4 +34,13 @@
 // import "./chapter4/prim.js";
 // import "./chapter5/LSD.js";
 // import "./chapter5/stringST.js";
-import "./chapter5/search.js";
+// import "./chapter5/search.js";
+// import "./chapter5/BMP.js";
+// import "./leetcode/array/binarySearch.js";
+// import "./leetcode/array/searchInser.js";
+// import "./leetcode/array/searchRange.js";
+// import "./leetcode/array/mySqrt.js";
+// import "./leetcode/array/isPerfectSquare.js";
+// import "./leetcode/array/removeElement.js";
+// import "./leetcode/array/moveZeroes.js";
+import "./leetcode/array/backspaceCompare.js";
