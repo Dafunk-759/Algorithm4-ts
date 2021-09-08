@@ -43,4 +43,9 @@
 // import "./leetcode/array/isPerfectSquare.js";
 // import "./leetcode/array/removeElement.js";
 // import "./leetcode/array/moveZeroes.js";
-import "./leetcode/array/backspaceCompare.js";
+// import "./leetcode/array/backspaceCompare.js";
+// import "./leetcode/array/sortedSquares.js";
+// import "./leetcode/array/minSubArrayLen.js";
+// import "./leetcode/array/totalFruit.js";
+// import "./leetcode/array/minWindow.js";
+import "./leetcode/array/generateMatrix.js";

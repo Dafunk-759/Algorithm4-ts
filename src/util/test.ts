@@ -51,7 +51,7 @@ export function test<T extends (...args: any) => any>(
         .map((arg, index) => `arg${index}: ${arg}`)
         .join(
           " "
-        )}\nreturnVal: ${ret}\nexcept: ${returnVal}`
+        )}\nreturnVal: ${ret}\nexcept: ${returnVal}\n`
     );
   }
 }
