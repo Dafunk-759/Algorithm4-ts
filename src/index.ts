@@ -48,4 +48,7 @@
 // import "./leetcode/array/minSubArrayLen.js";
 // import "./leetcode/array/totalFruit.js";
 // import "./leetcode/array/minWindow.js";
-import "./leetcode/array/generateMatrix.js";
+// import "./leetcode/array/generateMatrix.js";
+// import "./leetcode/array/spiralOrder.js";
+// import "./leetcode/linklist/removeElements.js";
+import "./leetcode/linklist/MyLinkedList.js";

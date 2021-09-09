@@ -37,4 +37,13 @@ function generateMatrix(n: number): number[][] {
   return matrix;
 }
 
-console.log(generateMatrix(3));
+util.test(
+  generateMatrix,
+  [
+    [1, 2, 3],
+    [8, 9, 4],
+    [7, 6, 5],
+  ],
+  3
+);
+util.test(generateMatrix, [[1]], 1);
