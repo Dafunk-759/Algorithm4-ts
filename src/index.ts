@@ -51,4 +51,15 @@
 // import "./leetcode/array/generateMatrix.js";
 // import "./leetcode/array/spiralOrder.js";
 // import "./leetcode/linklist/removeElements.js";
-import "./leetcode/linklist/MyLinkedList.js";
+// import "./leetcode/linklist/MyLinkedList.js";
+// import "./leetcode/linklist/reverseList.js";
+// import "./leetcode/linklist/swapPairs.js";
+// import "./leetcode/linklist/removeNthFromEnd.js";
+// import "./leetcode/linklist/detectCycle.js";
+// import "./leetcode/hashMap/isAnagram.js";
+// import "./leetcode/hashMap/canConstruct.js";
+// import "./leetcode/hashMap/findAnagrams.js"
+// import "./leetcode/hashMap/intersection.js"
+// import "./leetcode/hashMap/isHappy.js";
+// import "./leetcode/hashMap/twoSum.js";
+import "./leetcode/hashMap/fourSumCount.js"
