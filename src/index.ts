@@ -76,3 +76,16 @@
 // import "./leetcode/backtracking/findSubsequences.js";
 // import "./leetcode/backtracking/permute.js";
 // import "./leetcode/backtracking/permuteUnique.js";
+// import "./leetcode/backtracking/solveNQueens.js";
+// import "./leetcode/backtracking/solveSudoku.js";
+// import "./leetcode/string/reverseString.js";
+// import "./leetcode/string/replaceSpace.js";
+// import "./leetcode/string/reverseWords.js";
+// import "./leetcode/string/reverseLeftWords.js";
+// import "./leetcode/string/strStr.js";
+// import "./leetcode/string/repeatedSubstringPattern.js";
+// import "./leetcode/queueStack/MyQueue.js"
+// import "./leetcode/queueStack/MyStack.js";
+// import "./leetcode/queueStack/isValid.js";
+// import "./leetcode/queueStack/removeDuplicates.js";
+import "./leetcode/queueStack/evalRPN.js";
