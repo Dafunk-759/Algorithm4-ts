@@ -111,4 +111,13 @@
 // import "./leetcode/binaryTree/mergeTrees.js";
 // import "./leetcode/binaryTree/searchBST.js";
 // import "./leetcode/binaryTree/isValidBST.js";
-import "./leetcode/binaryTree/getMinimumDifference.js";
+// import "./leetcode/binaryTree/getMinimumDifference.js";
+// import "./leetcode/binaryTree/lowestCommonAncestor.js";
+// import "./leetcode/binaryTree/deleteNode.js";
+// import "./leetcode/binaryTree/deleteNode.js";
+// import "./leetcode/binaryTree/sortedArrayToBST.js";
+import "./leetcode/binaryTree/convertBST.js";
+
+
+
+
