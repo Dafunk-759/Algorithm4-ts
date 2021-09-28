@@ -13,7 +13,7 @@ class TreeNode {
   }
 }
 function convertBST(
-  root: TreeNode | null
+  root: TreeNode | null,
 ): TreeNode | null {
   let sum = 0;
   const travel = (node: TreeNode | null): void => {
