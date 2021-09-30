@@ -117,4 +117,9 @@
 // import "./leetcode/binaryTree/deleteNode.js";
 // import "./leetcode/binaryTree/sortedArrayToBST.js";
 // import "./leetcode/binaryTree/convertBST.js";
-import "./leetcode/greedy/findContentChildren.js"
+// import "./leetcode/greedy/findContentChildren.js"
+// import "./leetcode/greedy/monotoneIncreasingDigits.js"
+// import "./leetcode/greedy/maxProfit2.js"
+// import "./leetcode/greedy/minCameraCover.js"
+// import "./leetcode/dp/fib.js";
+import "./leetcode/dp/minCostClimbingStairs.js";
