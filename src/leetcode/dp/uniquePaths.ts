@@ -17,7 +17,7 @@ function uniquePaths(m: number, n: number): number {
   }
   return uPs(m, n);
 }
-
+//dp
 function makePathMap() {
   const pathMap = new Map<string, number>();
   const getPaths = (r: number, c: number): number => {
