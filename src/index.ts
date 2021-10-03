@@ -122,4 +122,5 @@
 // import "./leetcode/greedy/maxProfit2.js"
 // import "./leetcode/greedy/minCameraCover.js"
 // import "./leetcode/dp/fib.js";
-import "./leetcode/dp/minCostClimbingStairs.js";
+// import "./leetcode/dp/minCostClimbingStairs.js";
+import "./leetcode/dp/canPartition.js";
