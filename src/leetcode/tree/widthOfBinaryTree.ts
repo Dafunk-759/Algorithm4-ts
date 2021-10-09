@@ -62,18 +62,14 @@ const toLevelOrder = (root: TreeNode) => {
 const toWidth = (arr: (TreeNode | number)[]): number => {
   if (isNumber(arr[0])) arr.shift();
   if (isNumber(arr[arr.length - 1])) arr.pop();
-  return arr.reduce(
-    (acc, item) =>
-      (acc as number) + (isNumber(item) ? item : 1),
-    0
-  ) as number;
+  const toCount = (
+    acc: number,
+    item: TreeNode | number
+  ): number => acc + (isNumber(item) ? item : 1);
+  return arr.reduce(toCount, 0);
 };
+const toMax = (a: number, b: number) => (a > b ? a : b);
 function widthOfBinaryTree(root: TreeNode | null): number {
   if (root === null) return 0;
-  return toLevelOrder(root)
-    .map(toWidth)
-    .reduce(
-      (max, width) => Math.max(max, width),
-      Number.NEGATIVE_INFINITY
-    );
+  return toLevelOrder(root).map(toWidth).reduce(toMax);
 }
