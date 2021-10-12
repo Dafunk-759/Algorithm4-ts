@@ -1,1 +1,1 @@
-import "./leetcode/tree/delNodes.js";
+import "./leetcode/twoPointers/partition.js";
