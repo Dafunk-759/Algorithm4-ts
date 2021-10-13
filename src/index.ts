@@ -1,1 +1,1 @@
-import "./leetcode/twoPointers/partition.js";
+import "./leetcode/twoPointers/findDuplicate.js";
