@@ -1,1 +1,1 @@
-import "./leetcode/twoPointers/findDuplicate.js";
+import "./leetcode/twoPointers/magicalString.js";
