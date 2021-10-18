@@ -1,1 +1,1 @@
-import "./leetcode/twoPointers/magicalString.js";
+import "./leetcode/twoPointers/findUnsortedSubarray.js";
