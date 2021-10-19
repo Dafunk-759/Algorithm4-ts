@@ -1,1 +1,1 @@
-import "./leetcode/twoPointers/findUnsortedSubarray.js";
+import "./leetcode/twoPointers/numFriendRequests.js";
