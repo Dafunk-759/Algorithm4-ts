@@ -1,1 +1,1 @@
-import "./leetcode/twoPointers/threeSumMulti.js";
+import "./leetcode/twoPointers/checkIfExist.js";
