@@ -1,1 +1,1 @@
-import "./leetcode/twoPointers/checkIfExist.js";
+import "./leetcode/twoPointers/findTheDistanceValue.js";
