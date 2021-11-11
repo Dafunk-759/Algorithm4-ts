@@ -1,1 +1,1 @@
-import './leetcode/string/isInterleave.js'
+import './leetcode/string/wordBreak.js'
