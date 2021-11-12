@@ -1,1 +1,1 @@
-import './leetcode/string/wordBreak.js'
+import './leetcode/string/WordDictionary.js'
