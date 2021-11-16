@@ -1,1 +1,1 @@
-import './leetcode/string/addOperators.js'
+import './leetcode/string/palindromePairs.js'
