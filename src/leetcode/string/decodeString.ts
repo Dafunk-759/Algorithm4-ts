@@ -45,3 +45,38 @@ const decodeString = (s: string): string => {
 
   return strs.join('')
 }
+
+const decodeString2 = (s: string): string => {
+  const numRe = /\d+/
+  const letterRe = /[a-z]+/
+  let cur = 0
+
+  const decode = (start: number): string => {
+    if (start >= s.length) return ''
+    if (s[start] === ']') {
+      cur++
+      return ''
+    }
+
+    if (numRe.test(s[start])) {
+      const end = endI(s, start, numRe)
+      const n = Number(s.slice(start, end))
+      cur = end + 1
+      let ret = ''
+      ret += decode(cur).repeat(n)
+      ret += decode(cur)
+      return ret
+    }
+
+    if (letterRe.test(s[start])) {
+      const end = endI(s, start, letterRe)
+      const sub = s.slice(start, end)
+      cur = end
+      return sub + decode(cur)
+    }
+
+    throw new Error('never')
+  }
+
+  return decode(cur)
+}
